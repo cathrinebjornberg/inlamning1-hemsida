@@ -8,9 +8,62 @@ header {
     width: 100%;
 }
 
+body {
+    background-color: #fdcbe3;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    width: 100%;
+}
+
 .shop-link {
     color: black;
     justify-content: center;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.monki-link {
+    color: black;
+    font-size: 4rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 25rem;
+}
+
+.links-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.menu-link {
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.search-product-link {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 22rem;
+}
+
+.swedish-link,
+.bi-person,
+.bi-suit-heart,
+.bi-handbag {
+    margin-right: 20px;
+
 }
