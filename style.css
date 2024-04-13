@@ -1,0 +1,16 @@
+header {
+    background-color: #fdcbe3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.shop-link {
+    color: black;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
