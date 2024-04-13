@@ -1,3 +1,12 @@
+body {
+    background-color: #fdcbe3;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #fdcbe3;
     display: flex;
@@ -5,24 +14,19 @@ header {
     align-items: center;
     margin: 0;
     padding: 0 1rem;
-    width: 100%;
 }
 
-body {
-    background-color: #fdcbe3;
-    overflow: hidden;
-}
 
 main {
     display: flex;
     justify-content: row;
     align-items: center;
     padding: 2rem;
-    margin: 2rem auto;
     background-color: #f9f9f9;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
     width: 100%;
+    max-width: 100%;
 }
 
 .shop-link {
@@ -57,7 +61,7 @@ main {
     color: black;
     font-size: 1.5rem;
     text-decoration: none;
-    margin-right: 22rem;
+    margin-right: 20rem;
 }
 
 .swedish-link,
@@ -65,5 +69,6 @@ main {
 .bi-suit-heart,
 .bi-handbag {
     margin-right: 20px;
+    color: black;
 
 }
