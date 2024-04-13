@@ -116,3 +116,13 @@ h1 {
     border: none;
     cursor: pointer;
 }
+
+.image-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-image {
+    width: 30%;
+    height: auto;
+}
