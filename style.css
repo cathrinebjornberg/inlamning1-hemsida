@@ -74,11 +74,13 @@ footer {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 25rem;
+    margin-left: auto;
 }
 
 .links-container {
     display: flex;
     justify-content: flex-start;
+    gap: 1rem;
 }
 
 
